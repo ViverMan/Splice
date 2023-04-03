@@ -178,7 +178,7 @@ header {
 }
 /*---------------central-block--------------------*/
 .central-block {
-    background-image: url('./img/bg_top.jpg');
+    background-image: url('/img/bg_top.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -460,7 +460,7 @@ header {
 }
 /*---------------try-splise-----------------*/
 .try-splise {
-    background-image: url('./img/foto_bg2.jpg');
+    background-image: url('/img/foto_bg2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
