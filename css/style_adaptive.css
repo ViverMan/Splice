@@ -1,0 +1,123 @@
+@media (max-width: 768.98px) {
+    /*---------central-block-----------*/
+    header {
+        padding: 10px;
+    }
+    .header__login {
+        margin-right: 10px;
+    }
+    .blue_stripe {
+        font-size: 14px;
+        padding: 8px 0px 8px 10px;
+    }
+    .central-block-info {
+        max-width: 440px;
+        margin-left: 48px;
+    }
+    .central-block-info h1 {
+        font-size: 50px;
+        line-height: 100%;
+        margin-bottom: 26px;
+    }
+    .central-block-info p {
+        font-size: 20px;
+        line-height: 120%;
+        margin-bottom: 20px;
+    }
+    /*---------------sound and other-box-----------------*/
+    .sound-box, .box-connected, .box-gear,.box-tehnology {
+        padding: 0 20px;
+        height: 350px;
+    }
+}
+    /*---------responsive design--------------*/
+
+@media(max-width: 768px) {
+    .header__nav {
+        display: none;
+    }
+    .header__nav-dropdown, .fa-solid, .fa-bars{
+        display: block;
+    }
+    .header__nav-list-dd li a {
+        font-size: 20px;
+    }
+    .box-creators {
+        padding: 10px 20px;
+    }
+}
+@media(max-width: 576px) {
+    .header__nav-dropdown {
+        left: 10px;
+        width: unset;
+    }
+}
+    /*------------------sound and other-box----------*/
+@media(max-width:592px) {
+    .sound-box__right,.box-connected__left, .box-gear__right, .box-tehnology__left {
+        display: none;
+    }
+    .sound-box, .box-connected, .box-gear,.box-tehnology {
+        height: 300px;
+    }
+    .box-creators {
+        padding: 10px 10px;
+    }
+    .creators-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .box-connected, .box-tehnology {
+        justify-content: end;
+    }
+    .card {
+        width: unset;
+        padding: 15px;
+    }
+    .central-block-info {
+        margin-left: 15px;
+    }
+}
+    /*------------------splise-info, footer----------*/
+@media(max-width:1024px) {
+    .splise-info__box {
+        padding: 20px 20px 0 20px;
+        gap: 10px;
+    }
+    .box-footer {
+        padding: 60px 20px 40px 20px;
+        gap: 24px;
+    }
+}
+@media(max-width:768px) {   
+    .box-footer {
+        padding: 30px 15px 20px 15px;
+        gap: 12px;
+    }
+}
+@media(max-width:592px) {
+    .column p {
+        font-size: 14px;
+        line-height: 80%;
+    }
+    .splise-info__box {
+        padding: 10px 10px 0 10px;
+        gap: 8px;
+    }
+    .box-footer ul{
+        display: flex;
+        gap: 5px;
+    }
+}
+@media(max-width:480px) {
+    .blue_stripe a {
+        padding-right: 10px;
+    }
+    .splise-info__box {
+        flex-wrap: wrap;
+    }
+    .column {
+        width: 30%;
+    }
+}
