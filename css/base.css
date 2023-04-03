@@ -178,7 +178,7 @@ header {
 }
 /*---------------central-block--------------------*/
 .central-block {
-    background-image: url('../img/bg_top.jpg');
+    background-image: url('/img/bg_top.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
