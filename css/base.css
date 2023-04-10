@@ -87,6 +87,11 @@ header {
     gap: 20px;
 }
 .header__nav-list li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
     color: #A6A8AD;
 }
 .header__nav-list li a:hover {
@@ -97,11 +102,20 @@ header {
     scale: 0.95;
 }
 .header__login {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
     color: #A6A8AD;
     margin-left: auto;
     margin-right: 20px;
     display: flex;
     align-items: center;
+}
+.header__login:hover {
+    scale: 1.05;
+    color: white;
 }
 .header__btn {
     width: 95px;
