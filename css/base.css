@@ -96,7 +96,7 @@ header {
 }
 .header__nav-list li a:hover {
         scale: 1.05;
-        color: #A6A8AD;
+        color: white;
 }
 .header__nav-list li a:active {
     scale: 0.95;
